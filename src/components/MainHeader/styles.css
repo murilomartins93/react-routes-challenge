@@ -1,0 +1,24 @@
+.rr-header {
+  background-color: var(--rr-bg-tertiary);
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.rr-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rr-navlinks {
+  color: var(--rr-font-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.rr-active-link {
+  font-weight: 700;
+}

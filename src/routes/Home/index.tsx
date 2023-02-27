@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+import MainHeader from "../../components/MainHeader";
 
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <MainHeader />
       <Outlet></Outlet>
     </>
   );

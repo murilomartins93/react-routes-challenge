@@ -1,4 +1,10 @@
 :root {
+  --rr-bg-primary: #FFFFFF;
+  --rr-bg-secondary: #C7C7C7;
+  --rr-bg-tertiary:#2D28FF;
+
+  --rr-font-primary: #FFFFFF;
+  --rr-font-secondary: #000000;
 }
 
 * {
