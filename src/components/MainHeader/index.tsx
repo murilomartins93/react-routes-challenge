@@ -8,6 +8,7 @@ export default function MainHeader() {
     <header className={"rr-header"}>
       <nav className={"rr-container rr-nav"}>
         <div className={"rr-navlinks"}>
+          <PageLink to={"/home"}>Início</PageLink>
           <PageLink to={"/about"}>Sobre nós</PageLink>
         </div>
         <Link to={"/"}>

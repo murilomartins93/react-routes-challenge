@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/Home/About";
 import HomeIndex from "./routes/Home/HomeIndex";
@@ -9,10 +9,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route index element={<HomeIndex />} />
-          <Route path={"about"} element={<About />} />
+          <Route index element={<Navigate to="/home" />} />
+          <Route path="home" element={<HomeIndex />} />
+          <Route path="about" element={<About />} />
         </Route>
-        <Route path={"*"} element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
