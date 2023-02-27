@@ -12,7 +12,7 @@ export default function MainHeader() {
           <PageLink to={"/products"}>Produtos</PageLink>
           <PageLink to={"/about"}>Sobre nós</PageLink>
         </div>
-        <Link to={"/"}>
+        <Link to={"/home"}>
           <img src={homeIcon} alt="Home Icon" />
         </Link>
       </nav>
