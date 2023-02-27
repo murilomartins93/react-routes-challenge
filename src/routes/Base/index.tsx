@@ -1,12 +1,10 @@
 import { Outlet } from "react-router-dom";
 import MainHeader from "../../components/MainHeader";
-import ProductsNav from "../../components/ProductsNav";
 
-export default function Products() {
+export default function Base() {
   return (
     <>
       <MainHeader />
-      <ProductsNav />
       <Outlet />
     </>
   );
