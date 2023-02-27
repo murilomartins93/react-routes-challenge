@@ -1,0 +1,8 @@
+.rr-products-nav {
+    padding: 20px;
+    background-color: var(--rr-bg-secondary);
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+}

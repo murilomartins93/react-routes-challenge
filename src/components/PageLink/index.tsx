@@ -5,7 +5,7 @@ export default function PageLink({ to, ...props }: any) {
     <NavLink
       to={to}
       className={({ isActive }) =>
-        isActive ? "rr-active-link" : " "
+        isActive ? "rr-active-link rr-mr20" : "rr-mr20"
       }
       {...props}
     />

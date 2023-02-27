@@ -42,8 +42,16 @@ main {
   margin-top: 20px;
 }
 
+.rr-mr20 {
+  margin-right: 20px;
+}
+
 .rr-page-title {
   font-size: 24px;
   font-weight: 700;
   color: var(--rr-font-secondary);
+}
+
+.rr-active-link {
+  font-weight: 700;
 }
