@@ -1,9 +1,9 @@
 :root {
-  --rr-bg-primary: #FFFFFF;
-  --rr-bg-secondary: #C7C7C7;
-  --rr-bg-tertiary:#2D28FF;
+  --rr-bg-primary: #ffffff;
+  --rr-bg-secondary: #c7c7c7;
+  --rr-bg-tertiary: #2d28ff;
 
-  --rr-font-primary: #FFFFFF;
+  --rr-font-primary: #ffffff;
   --rr-font-secondary: #000000;
 }
 
@@ -30,8 +30,20 @@ main {
   padding: 10px;
 }
 
+/* Generic Styles */
+
 .rr-container {
   margin: 0 auto;
   max-width: 960px;
   width: 100%;
+}
+
+.rr-mt20 {
+  margin-top: 20px;
+}
+
+.rr-page-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--rr-font-secondary);
 }

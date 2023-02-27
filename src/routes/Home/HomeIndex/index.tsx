@@ -1,3 +1,7 @@
 export default function HomeIndex() {
-  return <h1>Bem-vindos!</h1>;
+  return (
+    <main>
+      <h1 className="rr-container rr-mt20 rr-page-title">Bem-vindos!</h1>
+    </main>
+  );
 }
